@@ -25,4 +25,13 @@
 |email|사용자 연락처 - 필요|문자열(String)|
 |books|해당 사용자의 도서 구매 목록 - 필요|배열(Array)|
 
+* API 설계
+
+|URL|	URL 설명|	HTTP 메서드|
+|/api/books|	전체 도서 목록 조회|	GET|
+|/api/books/{id}|	특정 도서 조회|	GET|
+|/api/books|	새로운 도서 생성|	POST|
+|/api/books/{id}|	특정 도서 정보 변경|	PUT|
+|/api/books/{id}|	특정 도서 삭제|	DELETE|
+
   
